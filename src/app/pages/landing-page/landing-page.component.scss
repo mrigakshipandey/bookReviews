@@ -1,0 +1,15 @@
+.landing-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-title {
+    font-size: 8rem;
+    font-family: 'amaline';
+}
+.page-subtitle {
+    font-size: 2rem;
+    color: lightgray;
+}

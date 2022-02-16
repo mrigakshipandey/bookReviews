@@ -13,3 +13,4 @@ The original app was developed in react, I'll develop my app in angular and make
 ### Learnings
 1. Importing [fonts](https://www.dafont.com/) in angular, using [this method](https://stackoverflow.com/questions/49878988/how-to-import-a-new-font-into-a-project-angular-5)
 2. Angular Anmations
+    1. [Angular Animations Tutorial | Mosh](https://www.youtube.com/watch?v=ra5qNKNc95U)
