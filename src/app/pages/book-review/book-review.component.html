@@ -10,5 +10,9 @@
             <mat-icon *ngFor="let s of emptyStars">star_border</mat-icon>
         </div>
     </div>
-    <div class="parallax-images"></div>
+    <div class="parallax-images">
+    <div appParallax [ratio]="-0.5" class="top"><img src="assets/images/front.png"></div>
+    <div appParallax [ratio]="-0.3" class="spine"><img src="assets/images/spine.png"></div>
+    <div appParallax [ratio]="-0.4" class="back"><img src="assets/images/back.png"></div>
+    </div>
 </div>
