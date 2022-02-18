@@ -9,13 +9,13 @@ import { Component, OnInit } from '@angular/core';
     trigger('moveDown', [
       transition(':enter', [
         style({ opacity: 0, transform: 'translateY(-1rem)' }),
-        animate(2000)
+        animate(1000)
       ])
     ]),
     trigger('fade', [
       transition(':enter', [
         style({ opacity: 0 }),
-        animate('500ms 2000ms')
+        animate('600ms 400ms')
       ])
     ]),    
   ]

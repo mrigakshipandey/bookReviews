@@ -1,0 +1,50 @@
+.book-review {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: sans-serif;
+    .review-content {
+        height: 90vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+
+        .book-number {
+            margin: 0.5rem 0 0.5rem 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .book-title {
+            margin: 6rem 0 0.2rem 1.5rem;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .book-authors {
+            margin: 0 0 0.2rem 1.5rem;
+            font-size: 1.5rem;
+        }
+        .review {
+            margin: 2rem 0 2rem 1.5rem;
+            font-size: 1.5rem;
+        }
+        .book-rating {
+            margin-bottom: 0.5rem;
+            margin-top: auto;
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex; 
+            flex-direction: row;
+            .rating {
+                transform: translateY(-30%); 
+                color: lightgray;
+                font-size: 3rem;
+            }
+        }
+    }
+    .parallax-images {
+        height: 150vh;
+        width: 50%;
+    }
+}

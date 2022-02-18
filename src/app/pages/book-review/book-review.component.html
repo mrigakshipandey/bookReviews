@@ -1,0 +1,14 @@
+<div class="book-review">
+    <div class="review-content">
+        <div class="book-number">{{reviewContent.number| number : '2.0'}}</div>
+        <div class="book-title">{{reviewContent.title}}</div>
+        <div class="book-authors">{{getAuthorString()}}</div>
+        <div class="review">{{reviewContent.review}}</div>
+        <div class="book-rating">
+            <span class="rating">Rating &nbsp;</span>
+            <mat-icon *ngFor="let s of fullStars">star</mat-icon>
+            <mat-icon *ngFor="let s of emptyStars">star_border</mat-icon>
+        </div>
+    </div>
+    <div class="parallax-images"></div>
+</div>
